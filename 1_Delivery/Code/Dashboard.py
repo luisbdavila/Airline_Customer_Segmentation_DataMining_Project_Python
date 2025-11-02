@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import datetime
+import os
 
 st.set_page_config(
     page_title="Airline Customer Analytics Dashboard",
@@ -13,9 +14,10 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df_customer = pd.read_csv('data/DM_AIAI_CustomerDB.csv')
-    df_flights = pd.read_csv('data/DM_AIAI_FlightsDB.csv')
-    df_master = pd.read_csv('data/DM_AIAI_MasterCustomerDB.csv')
+    # Safe way to reference the file relative to the app
+    df_customer = pd.read_csv(os.path.join("data", "DM_AIAI_CustomerDB.csv"))
+    df_flights = pd.read_csv(os.path.join("data", 'data/DM_AIAI_FlightsDB.csv'))
+    df_master = pd.read_csv(os.path.join("data", 'data/DM_AIAI_MasterCustomerDB.csv'))
     return df_customer, df_flights, df_master
 
 df_customer, df_flights, df_master = load_data()
