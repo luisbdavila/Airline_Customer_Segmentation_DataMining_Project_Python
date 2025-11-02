@@ -13,9 +13,9 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df_customer = pd.read_csv('../data/DM_AIAI_CustomerDB.csv')
-    df_flights = pd.read_csv('../data/DM_AIAI_FlightsDB.csv')
-    df_master = pd.read_csv('../data/DM_AIAI_MasterCustomerDB.csv')
+    df_customer = pd.read_csv('data/DM_AIAI_CustomerDB.csv')
+    df_flights = pd.read_csv('data/DM_AIAI_FlightsDB.csv')
+    df_master = pd.read_csv('data/DM_AIAI_MasterCustomerDB.csv')
     return df_customer, df_flights, df_master
 
 df_customer, df_flights, df_master = load_data()
