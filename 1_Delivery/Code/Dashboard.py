@@ -16,8 +16,8 @@ st.set_page_config(
 def load_data():
     # Safe way to reference the file relative to the app
     df_customer = pd.read_csv(os.path.join("data", "DM_AIAI_CustomerDB.csv"))
-    df_flights = pd.read_csv(os.path.join("data", 'data/DM_AIAI_FlightsDB.csv'))
-    df_master = pd.read_csv(os.path.join("data", 'data/DM_AIAI_MasterCustomerDB.csv'))
+    df_flights = pd.read_csv(os.path.join("data", 'DM_AIAI_FlightsDB.csv'))
+    df_master = pd.read_csv(os.path.join("data", 'DM_AIAI_MasterCustomerDB.csv'))
     return df_customer, df_flights, df_master
 
 df_customer, df_flights, df_master = load_data()
