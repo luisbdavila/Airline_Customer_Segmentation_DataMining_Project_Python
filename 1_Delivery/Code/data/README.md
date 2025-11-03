@@ -1,1 +1,1 @@
-Folder for the data to import and that will be created
+Folder for the data to import and to store the one that will be created
