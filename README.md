@@ -7,8 +7,7 @@ The needed libraries are the ones used on DM classes.
 For the Optional part (Geografical EDA, and Streamlit Dashboard) is importandt to install the libraries: streamlit, plotly, and Geopandas (we recomend doing that by: **conda install -c conda-forge geopandas -y** ).
 
 To see the Dashborda you can acess: https://aiai-dashboard-dm.streamlit.app/
-Or run on the command promt were the Dashboard.py is located **python -m streamlit run 
-Dashboard.py**
+Or run on the command promt were the Dashboard.py is located **python -m streamlit run Dashboard.py**
 
 ---
 

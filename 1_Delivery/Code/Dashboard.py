@@ -191,8 +191,8 @@ def get_safe_median_int(series):
 
 # --- Metrics ---
 # Use column names that likely exist in df_master
-col1.metric("Median Flights", get_safe_median_int(filtered_master.get('Total_NumFlights', pd.Series(dtype=float))))
-col2.metric("Median Distance (KM)", get_safe_median_int(filtered_master.get('Total_DistanceKM', pd.Series(dtype=float))))
+col1.metric("Median Flights per Customer", get_safe_median_int(filtered_master.get('Total_NumFlights', pd.Series(dtype=float))))
+col2.metric("Median Distance (KM) per Customer", get_safe_median_int(filtered_master.get('Total_DistanceKM', pd.Series(dtype=float))))
 
 try:
     median_pct_companions = filtered_master.get('Perc_Flights_With_Companions', pd.Series(dtype=float)).median()
@@ -200,10 +200,10 @@ try:
         median_pct_companions = 0.0
 except Exception:
     median_pct_companions = 0.0
-col3.metric("% w/ Companions", f"{median_pct_companions:.1f}%")
+col3.metric("Flights with Companions (%)", f"{median_pct_companions:.1f}%")
 
 col4.metric(
-    "Median Dollar Cost Points Remaining",
+    "Redeemable $ by Customer",
     get_safe_median_int(filtered_master.get('Dollar_Cost_Points_Remaining', pd.Series(dtype=float)))
 )
 
