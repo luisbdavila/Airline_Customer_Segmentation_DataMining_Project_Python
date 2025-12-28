@@ -98,7 +98,7 @@ Here is the profiling for each cluster:
 
 + **The March Loyals (1126):** Medium income, medium revenue, long tenure. Consistent, engaged group. "March people" who accumulate points for companion travel in March.
 
-+ **VIPs (64):** High income, high revenue, short tenure. Recently active and engaged. They travel in June with companions and are frequent autumn travelers, using points throughout the year except in Q4. Almost 100% Bachelors, that are Divorced or Married, with the more proportion of mens (~35%).
++ **VIPs (64):** High income, high revenue, short tenure. Recently active and engaged. They travel in June with companions and are frequent autumn travelers, using points throughout the year except in Q4. Almost 100% Bachelors, that are Divorced or Married, with the more proportion of mens (~65%).
 
 + **The Q4 Boomerang (691):** Medium income, low revenue, short tenure. Re-engaged customers who are now moderately active, particularly in autumn and December with companions.
 
