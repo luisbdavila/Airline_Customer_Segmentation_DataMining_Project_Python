@@ -8,7 +8,9 @@ For the Optional part (Autoencoder, and Fuzzy C-means) is importandt to install 
 
 ---
 
-To run the code it expect to have a folder structure like this (if not, change the imports and folder paths on the jupyter).
+To run the code (the last ones should be the Merge_Clusters jupyters) it expect to have a folder structure like this (if not, change the imports and folder paths on the jupyter).
+
+Here is also the link to the github repo: https://github.com/luisbdavila/Airline_Customer_Segmentation_DataMining_Project_Python/tree/main/Final_delivery
 
 ```plaintext
 Final_delivery/
