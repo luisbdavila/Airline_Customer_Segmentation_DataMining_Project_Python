@@ -58,6 +58,7 @@ To run the code it expect to have a folder structure like this (if not, change t
 │   │   └── yearly_behavior.ipynb              # Analysis/clustering for yearly behavior.
 │   ├── data/
 │   │   ├── DM_AIAI_MasterCustomerDB.csv       # Integrated master dataset.
+│   ├── Group12_Clustering_Report.pdf          # Report of Clustering.
 │   └── README.md                              # Part2 Project overview and structure guide.
 ```
 
